@@ -1,0 +1,215 @@
+.game-title {
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-font: url("project://database/Assets/Plugins/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&guid=e3265ab4bf004d28a9537516768c1c75&type=3#LiberationSans");
+    font-size: 24px;
+    -unity-text-align: upper-center;
+}
+
+.menu-button {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-color: rgba(0, 0, 0, 0.29);
+    border-right-color: rgba(0, 0, 0, 0.29);
+    border-top-color: rgba(0, 0, 0, 0.29);
+    border-bottom-color: rgba(0, 0, 0, 0.29);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    background-color: rgb(132, 132, 132);
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+.menu-button:hover {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-color: rgba(0, 0, 0, 0.29);
+    border-right-color: rgba(0, 0, 0, 0.29);
+    border-top-color: rgba(0, 0, 0, 0.29);
+    border-bottom-color: rgba(0, 0, 0, 0.29);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    background-color: rgb(154, 154, 154);
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+.panel {
+    background-color: rgba(101, 101, 101, 0.78);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgb(128, 128, 128);
+    border-right-color: rgb(128, 128, 128);
+    border-top-color: rgb(128, 128, 128);
+    border-bottom-color: rgb(128, 128, 128);
+}
+
+.build-button {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-color: rgba(0, 0, 0, 0.29);
+    border-right-color: rgba(0, 0, 0, 0.29);
+    border-top-color: rgba(0, 0, 0, 0.29);
+    border-bottom-color: rgba(0, 0, 0, 0.29);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    background-color: rgb(132, 132, 132);
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+.hud-text {
+    color: rgb(255, 255, 255);
+}
+
+.build-button:hover {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-color: rgba(0, 0, 0, 0.29);
+    border-right-color: rgba(0, 0, 0, 0.29);
+    border-top-color: rgba(0, 0, 0, 0.29);
+    border-bottom-color: rgba(0, 0, 0, 0.29);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    background-color: rgb(154, 154, 154);
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+.button-color {
+    color: rgb(96, 96, 96);
+}
+
+.button-color:hover {
+    color: rgb(115, 115, 115);
+}
+
+.border {
+    border-left-color: rgb(166, 166, 166);
+    border-right-color: rgb(166, 166, 166);
+    border-top-color: rgb(166, 166, 166);
+    border-bottom-color: rgb(166, 166, 166);
+}
+
+.border__button:hover {
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+.border__button {
+}
+
+.main-window-text-color {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    -unity-font-style: normal;
+}
+
+.main-window-element .unity-label {
+    opacity: 1;
+    display: none;
+}
+
+.border :hover {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.scale-animation :hover {
+    transition-property: scale;
+    transition-timing-function: ease-in-bounce;
+    transition-duration: 0.2s;
+    scale: 1.1 1.1;
+}
+
+.main-screen-element-background-color {
+}
+
+.scale-animation {
+}
+
+#game-menu-content #element-background {
+    background-color: rgba(156, 156, 156, 0.52);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgba(255, 255, 255, 0.13);
+    border-right-color: rgba(255, 255, 255, 0.13);
+    border-top-color: rgba(255, 255, 255, 0.13);
+    border-bottom-color: rgba(255, 255, 255, 0.13);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+#unity-drag-container #unity-dragger {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 36px;
+    top: 12px;
+    flex-grow: 1;
+    height: 36px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#unity-drag-container {
+    align-self: flex-start;
+    justify-content: center;
+}
+
+#unity-drag-container #unity-tracker {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(29, 29, 29, 0.42);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 16px;
+    top: 15px;
+}
+
+#unity-slider #unity-text-input {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

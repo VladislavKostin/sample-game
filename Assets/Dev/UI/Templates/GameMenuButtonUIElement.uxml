@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button text="Game Menu Button" display-tooltip-when-elided="true" name="game-manu-button" class="menu-button border scale-animation" />
+</ui:UXML>

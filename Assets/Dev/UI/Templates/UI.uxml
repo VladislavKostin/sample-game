@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="GameMenuButtonUIElement" src="project://database/Assets/Dev/UI/Templates/GameMenuButtonUIElement.uxml?fileID=9197481963319205126&amp;guid=6908ef972139ee844802b7b427ee4539&amp;type=3#GameMenuButtonUIElement" />
+    <Style src="project://database/Assets/Dev/UI/Styles/Main.uss?fileID=7433441132597879392&amp;guid=4f60de004334c7a4d804a95fc5c71b19&amp;type=3#Main" />
+    <ui:VisualElement name="game-menu" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: flex-start; display: flex; background-image: none;">
+        <ui:VisualElement name="game-menu-panel" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 422px; display: flex;">
+            <ui:VisualElement class="panel border" style="flex-grow: 1; background-color: rgb(113, 113, 113); justify-content: flex-start; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-top-width: 0; border-bottom-width: 0; padding-right: 16px; padding-left: 16px;">
+                <ui:VisualElement style="flex-grow: 0; align-self: auto;">
+                    <ui:Label tabindex="-1" text="Game Title" display-tooltip-when-elided="true" class="game-title" style="font-size: 36px; white-space: normal; padding-bottom: 8px; padding-top: 16px; padding-right: 8px; padding-left: 8px; margin-left: 4px; margin-bottom: 20px; color: rgb(178, 178, 178);" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+                    <ui:Label tabindex="-1" text="Menu Title" display-tooltip-when-elided="true" name="game-menu-title" class="game-title" style="font-size: 36px; white-space: normal; padding-bottom: 16px; padding-top: 8px; padding-right: 8px; padding-left: 8px; margin-left: 4px; margin-bottom: 20px; display: flex;" />
+                    <ui:VisualElement name="game-menu-buttons-container" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); height: 450px; align-self: auto;">
+                        <ui:Instance template="GameMenuButtonUIElement" name="GameMenuButtonUIElement" style="display: none;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="game-menu-content-section" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.5); display: flex;">
+            <ui:VisualElement name="game-menu-content-header" style="flex-grow: 1; max-height: 110px; border-bottom-color: rgba(255, 255, 255, 0.12); border-top-width: 0; border-right-width: 0; border-bottom-width: 4px; border-left-width: 0; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); background-color: rgba(125, 125, 125, 0.19);">
+                <ui:Label tabindex="-1" text="Content Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="game-menu-content-title" style="align-self: center; -unity-font-style: bold; font-size: 40px; margin-top: 24px; margin-bottom: 32px; margin-right: 0; margin-left: 0; align-items: auto; -unity-text-align: upper-center; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="game-menu-content" style="flex-grow: 1; align-items: flex-start; flex-direction: row; justify-content: center;">
+                <ui:VisualElement name="game-menu-content-container" class="main-window-text-color" style="flex-grow: 0; padding-right: 64px; padding-left: 64px; padding-top: 32px; width: 1077px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="hud" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: none;">
+        <ui:VisualElement name="top-bar" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="top-menu" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: center; flex-direction: row; padding-bottom: 0; margin-bottom: 11px; align-items: flex-end;">
+                <ui:VisualElement name="panel" class="panel border" style="flex-grow: 0; justify-content: flex-end; flex-direction: row; align-items: center; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; display: flex; border-top-left-radius: 0; border-top-right-radius: 0; border-top-width: 0;">
+                    <ui:Button text="Menu" display-tooltip-when-elided="true" name="pause-menu-button" class="build-button menu-button border__button border" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
